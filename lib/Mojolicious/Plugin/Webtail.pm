@@ -1,8 +1,10 @@
 package Mojolicious::Plugin::Webtail;
 
-use Mojo::Base 'Mojolicious::Plugin';
-our $VERSION = '0.02';
+use strict;
+use warnings;
+our $VERSION = '0.03';
 
+use Mojo::Base 'Mojolicious::Plugin';
 use Mojo::Util qw{ slurp };
 use Carp ();
 use Encode ();
@@ -206,7 +208,7 @@ Mojolicious::Plugin::Webtail is display tail to your browser by WebSocket.
 
 =head1 METHODS
 
-L<Mojolicious::Plugin::Webtail> inherits all methods from :<Mojolicious::Plugin>.
+L<Mojolicious::Plugin::Webtail> inherits all methods from L<Mojolicious::Plugin>.
 
 =head1 OPTIONS
 

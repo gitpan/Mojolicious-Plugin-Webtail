@@ -1,6 +1,7 @@
 bin/mwtail
 Changes
 inc/Module/Install.pm
+inc/Module/Install/AuthorTests.pm
 inc/Module/Install/Base.pm
 inc/Module/Install/Can.pm
 inc/Module/Install/Fetch.pm
@@ -23,3 +24,7 @@ t/app/app.pl
 t/app/webtailrc
 t/file.t
 t/util.pl
+xt/01_podspell.t
+xt/02_perlcritic.t
+xt/03_pod.t
+xt/perlcriticrc

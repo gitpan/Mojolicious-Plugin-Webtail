@@ -8,11 +8,12 @@ readme_pod_from 'lib/Mojolicious/Plugin/Webtail.pm';
 # Windows unsupported
 die "$^O unsupported" if ( $^O eq 'MSWin32' || $^O eq 'cygwin' || $^O eq 'msys' );
 
-requires 'Mojolicious';
+requires 'Mojolicious' => '3.02';
 
 install_script 'bin/mwtail';
 
 tests 't/*.t';
+author_tests 'xt';
 
 test_requires 'Test::More';
 auto_set_repository;

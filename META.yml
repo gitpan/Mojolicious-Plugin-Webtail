@@ -18,8 +18,9 @@ no_index:
   directory:
     - inc
     - t
+    - xt
 requires:
-  Mojolicious: 0
+  Mojolicious: 3.02
 resources:
   license: http://dev.perl.org/licenses/
   repository: git://github.com/hayajo/Mojolicious-Plugin-Webtail.git
