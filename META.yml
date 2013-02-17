@@ -21,7 +21,8 @@ no_index:
     - xt
 requires:
   Mojolicious: 3.02
+  Text::ParseWords: 0
 resources:
   license: http://dev.perl.org/licenses/
   repository: git://github.com/hayajo/Mojolicious-Plugin-Webtail.git
-version: 0.02
+version: 0.05
