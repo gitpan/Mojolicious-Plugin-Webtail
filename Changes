@@ -1,4 +1,8 @@
-Revision history for Perl extension Mojolicious::Plugin::Webtail
+Revision history for Mojolicious-Plugin-Webtail
+
+0.06 2014-06-06T04:43:28Z
+        - Minillaize
+        - Supported Mojolicious 5.0
 
 0.05
         - Reverted to use the tail from the File::Tail
